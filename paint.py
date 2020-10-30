@@ -1,3 +1,11 @@
+"""
+Juego de Paint
+
+Se agrgaron las formas: círculo, rectángulo y triángulo.
+Se añadió el color rosa.
+
+"""
+
 from turtle import *
 from freegames import vector
 

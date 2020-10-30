@@ -1,3 +1,12 @@
+"""
+Juego de Pacman
+Se modificaron la velocidad y la inteligencia de los fantasmas.
+Se modificó la forma del tablero
+
+"""
+
+
+
 from random import choice
 from turtle import *
 from freegames import floor, vector

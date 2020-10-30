@@ -1,3 +1,12 @@
+"""
+Juego de Snake
+
+Se modificó que cada vez que se abre el programa se cambia el color de la comida y de la serpiente.
+Se modificó que la comida no saliera de la ventana.
+
+"""
+
+
 from turtle import *
 from random import randrange
 from freegames import square, vector
