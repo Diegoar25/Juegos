@@ -25,9 +25,11 @@ def circle(start, end):
     "Draw circle from start to end."
     pass  # TODO
 
-def rectangle(start, end):
-    "Draw rectangle from start to end."
-    pass  # TODO
+def rectangle(start, end): "Draw rectangle from start to end." "Draw rectangle from start to end." 
+    up()
+    goto(start.x,start.y)
+    down()
+    befin_fill()
 
 def triangle(start, end):
     "Draw triangle from start to end."
@@ -65,3 +67,4 @@ onkey(lambda: store('shape', circle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
+
