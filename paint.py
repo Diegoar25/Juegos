@@ -25,7 +25,8 @@ def circle(start, end):
     "Draw circle from start to end."
     pass  # TODO
 
-def rectangle(start, end): "Draw rectangle from start to end." "Draw rectangle from start to end." 
+def rectangle(start, end):
+    "Draw rectangle from start to end." "Draw rectangle from start to end." 
     up()
     goto(start.x,start.y)
     down()
